@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Triathlon & Duathlon Training Plans</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Bergman Triathlon & Duathlon Training Plans</h2>
+    <h3>Heart Rate / Power Based Completion Plans</h3>
+    <div id="form-container">
+      <!-- Form will be rendered by script.js -->
+    </div>
+    <div id="chatbot">
+      <div id="chatlog"></div>
+      <div class="chat-input-wrapper">
+        <input type="text" id="chatinput" placeholder="Start chatting with the coach..." />
+        <button onclick="handleChat()">Send</button>
+      </div>
+    </div>
+    <div class="download-buttons" id="download-buttons">
+      <button onclick="downloadPDF()">Download PDF</button>
+    </div>
+    <p class="note">This is a generic structured training plan based on your input.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
